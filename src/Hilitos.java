@@ -19,7 +19,7 @@ public class Hilitos extends Thread{
 
         String[] fraseV = frase.split("");
 
-        if (getName().equals(getName())){
+
 
             for (int i = 0; i < fraseV.length; i++) {
               if (fraseV[i].equalsIgnoreCase(getName())){
@@ -36,6 +36,6 @@ public class Hilitos extends Thread{
             }
 
 
-        }
+
     }
 }
